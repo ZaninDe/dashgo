@@ -19,7 +19,7 @@ export default function UserList() {
 
         <Box flex="1" borderRadius={8} bg="gray.800" p="8">
           <Flex mb="8" justify="space-between" align="center">
-            <Heading size="lg" fontWeight="normal">Usuários</Heading>
+            <Heading size="lg" fontWeight="normal">Users</Heading>
 
             <Link href="/users/create" passHref>
               <Button
@@ -28,11 +28,11 @@ export default function UserList() {
                 fontSize="sm"
                 colorScheme="pink"
                 leftIcon={<Icon
-                as={RiAddLine} fontSize="20"
-              />}
-            >
-              Criar novo
-            </Button>
+                  as={RiAddLine} fontSize="20"
+                />}
+              >
+                Create a new
+              </Button>
             </Link>
           </Flex>
 
@@ -42,8 +42,8 @@ export default function UserList() {
                 <Th px={["4", "4", "6"]} color="gray.300" width="8">
                   <Checkbox colorScheme="pink" />
                 </Th>
-                <Th>Usuário</Th>
-                { isWideVersion && <Th>Data de cadastro</Th>}
+                <Th>User</Th>
+                {isWideVersion && <Th>Creation Date</Th>}
               </Tr>
             </Thead>
             <Tbody>
@@ -57,7 +57,7 @@ export default function UserList() {
                     <Text fontSize="sm" color="gray.300">gabriel.zaninde@gmail.com</Text>
                   </Box>
                 </Td>
-                { isWideVersion && <Td>27 de Abril, 2022</Td>}
+                {isWideVersion && <Td>27 de Abril, 2022</Td>}
 
               </Tr>
             </Tbody>
@@ -73,7 +73,7 @@ export default function UserList() {
                     <Text fontSize="sm" color="gray.300">gabriel.zaninde@gmail.com</Text>
                   </Box>
                 </Td>
-                { isWideVersion && <Td>27 de Abril, 2022</Td>}
+                {isWideVersion && <Td>27 de Abril, 2022</Td>}
 
               </Tr>
             </Tbody>
@@ -89,7 +89,7 @@ export default function UserList() {
                     <Text fontSize="sm" color="gray.300">gabriel.zaninde@gmail.com</Text>
                   </Box>
                 </Td>
-                { isWideVersion && <Td>27 de Abril, 2022</Td>}
+                {isWideVersion && <Td>27 de Abril, 2022</Td>}
 
               </Tr>
             </Tbody>

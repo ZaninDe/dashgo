@@ -6,15 +6,15 @@ import { NavSection } from "./NavSection";
 export function SidebarNav() {
   return (
     <Stack spacing="12" align="flex-start">
-    <NavSection title="GERAL">
-      <NavLink icon={RiDashboardLine} href="/dashboard">Dashboard</NavLink>
-      <NavLink icon={RiContactsLine} href="/users">Usuários</NavLink>
-    </NavSection>
+      <NavSection title="GERAL">
+        <NavLink icon={RiDashboardLine} href="/dashboard">Dashboard</NavLink>
+        <NavLink icon={RiContactsLine} href="/users">Users</NavLink>
+      </NavSection>
 
-    <NavSection title="AUTOMAÇÃO">
-      <NavLink icon={RiInputMethodLine} href="/forms">Formulários</NavLink>
-      <NavLink icon={RiGitMergeLine} href="/automation">Automação</NavLink>
-    </NavSection>
-  </Stack>
+      <NavSection title="AUTOMATION">
+        <NavLink icon={RiInputMethodLine} href="/forms">Forms</NavLink>
+        <NavLink icon={RiGitMergeLine} href="/automation">Automatization</NavLink>
+      </NavSection>
+    </Stack>
   )
 }
