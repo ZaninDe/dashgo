@@ -57,7 +57,7 @@ const options: ApexOptions = {
 }
 
 const series = [
-  { name: 'series1', data: [30, 120, 3, 54, 28, 48, 52]}
+  { name: 'series1', data: [30, 120, 3, 54, 28, 48, 52] }
 ]
 
 export default function Dashboard() {
@@ -76,8 +76,8 @@ export default function Dashboard() {
               borderRadius={8}
               pb="4"
             >
-              <Text fontSize="lg" mb="4">Incritos da semana</Text>
-              <Chart options={options} series={series} type="area" height={160}/>
+              <Text fontSize="lg" mb="4">scribers week</Text>
+              <Chart options={options} series={series} type="area" height={160} />
             </Box>
             <Box
               p={["6", "8"]}
@@ -86,7 +86,7 @@ export default function Dashboard() {
               pb="4"
             >
               <Text fontSize="lg" mb="4">Taxa de abertura</Text>
-              <Chart options={options} series={series} type="area" height={160}/>
+              <Chart options={options} series={series} type="area" height={160} />
             </Box>
           </SimpleGrid>
         </Flex>
